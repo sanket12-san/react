@@ -1,0 +1,93 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+    background-image:url(banner.png);
+    
+position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+padding: 2% 4%;
+
+}
+
+/* nav section */
+
+nav .navbar-nav li a{
+    color:#ECF1FB !important;
+  font-size: 1.07rem;
+  font-family: 'Montserrat', sans-serif;
+  
+  
+  
+  
+    }
+    .nav-item{
+padding-right: 50px;
+
+
+    }
+
+ 
+
+.nav-button{
+border-radius: 25px  !important;
+
+padding: 5px 30px !important;
+font-weight: bold !important;
+
+
+
+}
+
+.logo-text{
+
+color:whitesmoke !important;
+font-size: 1.95rem !important;
+font-weight: bold !important;
+
+}
+
+/* heading section */
+
+
+
+
+h1{
+position: absolute;
+top: 60px;
+left: 100px;
+color:white;
+
+}
+.heading{
+font-size: 5.76vw;
+letter-spacing: 5;
+line-height: 1;
+
+}
+
+
+/* responsiveness */
+
+@media only screen and (max-width: 600px){
+
+.heading{
+
+font-size: 8.5vw;
+
+}
+h1{
+position: absolute;
+top: 30px;
+left: 40px;
+
+}
+
+
+}
